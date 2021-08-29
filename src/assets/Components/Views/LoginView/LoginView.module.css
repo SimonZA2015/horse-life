@@ -1,0 +1,13 @@
+.body {
+    height: 100vh;
+    background: #f5bba5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 900px) {
+    .body {
+        align-items: flex-end;
+    }
+}
